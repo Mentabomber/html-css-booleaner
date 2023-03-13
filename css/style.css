@@ -2,23 +2,24 @@
 
 
 #header-image{
-    background-color: rgba(71, 115, 197,0.5);
-    background-image: url("img/pattern.png");
-    background-size: cover;
-    margin: auto;
-    
-}
-header{
-    background-image: url("img/tim-1.jpg");
-    background-size: auto;
-    
-    
-}
-body{
-    background-image: url("img/tim-1.jpg");
-    background-size: contain;
+    background-color: rgba(3, 111, 253, 0.5);
+    background-image: url("C:/Users/Menta/Menta Boolean/html-css-booleaner/img/pattern.png");
+    background-size: 25%;
+    height: 90px;
+    width: 50%;
+
 }
 
+.margin
+{
+    margin-left: 10px;
+}
+
+.blue{
+    color: rgb(50, 129, 248);
+    font-size: large;
+    font-weight: bold;
+}
 footer img{
     display: block;
     margin-block: 10px;
@@ -26,8 +27,11 @@ footer img{
 .yellow {
     background-color: yellow;}
 
-body {
-    background-image: url("graph.jpg");
+h4 {
+    color: gray;
+}
+body { 
+    margin: auto;
 }
 
 thead {
