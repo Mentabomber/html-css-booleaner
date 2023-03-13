@@ -1,8 +1,39 @@
 /*  header  */
+
+
+#header-image{
+    background-color: rgba(71, 115, 197,0.5);
+    background-image: url("img/pattern.png");
+    background-size: cover;
+    margin: auto;
+    
+}
 header{
-    background-image: url("img/pattern.png"), url("img/logo.svg")
+    background-image: url("img/tim-1.jpg");
+    background-size: auto;
+    
+    
+}
+body{
+    background-image: url("img/tim-1.jpg");
+    background-size: contain;
 }
 
-body{
-    background-image: url("img/pattern.png");
+footer img{
+    display: block;
+    margin-block: 10px;
+}
+.yellow {
+    background-color: yellow;}
+
+body {
+    background-image: url("graph.jpg");
+}
+
+thead {
+    background-color: darkcyan;
+    color: white;
+}
+tbody {
+    background-color: aquamarine;
 }
