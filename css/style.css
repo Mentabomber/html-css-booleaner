@@ -6,15 +6,21 @@
     background-image: url("C:/Users/Menta/Menta Boolean/html-css-booleaner/img/pattern.png");
     background-size: 25%;
     height: 90px;
-    width: 50%;
+    width: 100%;
 
 }
-
+h1{
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 0%;
+}
 .margin
 {
     margin-left: 10px;
 }
-
+main{
+    margin-top: 20px;
+}
 .blue{
     color: rgb(50, 129, 248);
     font-size: large;
@@ -24,6 +30,9 @@ footer img{
     display: block;
     margin-block: 10px;
 }
+#footer-table-background{
+    background-color: aquamarine;
+}
 .yellow {
     background-color: yellow;}
 
@@ -31,13 +40,23 @@ h4 {
     color: gray;
 }
 body { 
+    max-width: 1050px;
     margin: auto;
+}
+.table20{
+    width: 20%
+}
+.table30{
+    width: 30%
+}
+.table50{
+    width: 50%
 }
 
 thead {
     background-color: darkcyan;
     color: white;
 }
-tbody {
-    background-color: aquamarine;
+table {
+    text-align: left;
 }
