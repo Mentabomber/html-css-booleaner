@@ -1,6 +1,9 @@
 /*  header  */
 
-
+body { 
+    max-width: 1050px;
+    margin: auto;
+}
 #header-image{
     background-color: rgba(3, 111, 253, 0.5);
     background-image: url("C:/Users/Menta/Menta Boolean/html-css-booleaner/img/pattern.png");
@@ -9,17 +12,14 @@
     width: 100%;
 
 }
-h1{
-    font-size: 40px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin-bottom: 0%;
-}
 .margin
 {
     margin-left: 10px;
 }
-main{
-    margin-top: 20px;
+h1{
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 0%;
 }
 .grey{
     color:gray;
@@ -29,6 +29,43 @@ main{
     font-size: large;
     font-weight: bold;
 }
+
+/* main */
+
+main{
+    margin-top: 20px;
+}
+.small_characters{
+    font-size: 60%;
+    font-weight: bold;
+}
+.yellow {
+    background-color: yellow;}
+
+
+/* table */
+
+table {
+        text-align: left;
+    }
+thead {
+        background-color: darkcyan;
+        color: white;
+    }
+
+.table20{
+        width: 20%
+    }
+.table30{
+        width: 30%
+    }
+.table50{
+        width: 50%
+    }
+
+
+/* footer */
+
 footer img{
     display: block;
     margin-block: 10px;
@@ -36,30 +73,8 @@ footer img{
 #footer-table-background{
     background-color: aquamarine;
 }
-.yellow {
-    background-color: yellow;}
-
 h4 {
     color: gray;
 }
-body { 
-    max-width: 1050px;
-    margin: auto;
-}
-.table20{
-    width: 20%
-}
-.table30{
-    width: 30%
-}
-.table50{
-    width: 50%
-}
 
-thead {
-    background-color: darkcyan;
-    color: white;
-}
-table {
-    text-align: left;
-}
+
